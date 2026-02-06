@@ -29,7 +29,7 @@ function confettiPop(){
 }
 function getPreviewMode(){ return localStorage.getItem("PREVIEW_ALL")==="1"; }
 function setPreviewMode(on){ localStorage.setItem("PREVIEW_ALL", on ? "1":"0"); }
-function isUnlocked(iso){ if(getPreviewMode()) return true; return isoToday() >= iso; }
+function isUnlocked(iso){return true; return isoToday() >= iso; }
 
 function renderHeader(currentIso){
   const dot=$("dot"), todayText=$("todayText"), modeText=$("modeText"), toggle=$("togglePreview");
