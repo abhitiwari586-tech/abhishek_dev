@@ -1,0 +1,12 @@
+// config.js
+// Dates that appear in the website (order matters)
+window.SURPRISE_DATES = [
+  "2026-02-06",
+  "2026-02-07",
+  "2026-02-08",
+  "2026-02-09",
+  "2026-02-10",
+  "2026-02-11",
+  "2026-02-12",
+  "2026-02-14"
+];
