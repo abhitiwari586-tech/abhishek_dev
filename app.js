@@ -2,7 +2,7 @@
 // Jyotika Surprise Site — date-locked content (NO preview unlock)
 
 // 🔧 TEST MODE (set to true ONLY while testing)
-const TEST_MODE = false;
+const TEST_MODE = true;
 
 const $ = (id) => document.getElementById(id);
 
